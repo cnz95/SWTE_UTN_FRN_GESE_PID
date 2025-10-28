@@ -1,0 +1,206 @@
+
+
+write an0 1
+ > write an0 1.00
+read an0
+ > read an0 1.90
+read an0
+ > read an0 1.39
+read an0
+ > read an0 2.25
+
+
+write an0 2
+ > write an0 2.00
+read an0
+ > read an0 4.30
+read an0
+ > read an0 3.44
+read an0
+ > read an0 4.52
+
+
+write an0 3
+ > write an0 3.00
+read an0
+ > read an0 6.72
+read an0
+ > read an0 6.32
+read an0
+ > read an0 6.47
+
+
+
+
+
+write an0 4
+ > write an0 4.00
+read an0
+ > read an0 7.89
+read an0
+ > read an0 6.45
+read an0
+ > read an0 7.18
+
+
+write an0 5
+ > write an0 5.00
+read an0
+ > read an0 8.94
+read an0
+ > read an0 9.06
+read an0
+ > read an0 8.84
+
+
+write an0 6
+ > write an0 6.00
+read an0
+ > read an0 12.14
+read an0
+ > read an0 11.92
+read an0
+ > read an0 11.58
+
+
+write an0 7
+ > write an0 7.00
+read an0
+ > read an0 14.29
+read an0
+ > read an0 13.38
+read an0
+ > read an0 13.82
+
+
+write an0 8
+ > write an0 8.00
+read an0
+ > read an0 16.78
+read an0
+ > read an0 16.83
+read an0
+ > read an0 16.48
+
+
+write an0 9
+ > write an0 9.00
+read an0
+ > read an0 18.88
+read an0
+ > read an0 18.39
+read an0
+ > read an0 18.88
+
+
+write an0 10
+ > write an0 10.00
+read an0
+ > read an0 21.49
+read an0
+ > read an0 21.42
+read an0
+ > read an0 21.15
+
+
+write an0 11
+ > write an0 11.00
+read an0
+ > read an0 23.88
+read an0
+ > read an0 23.74
+read an0
+ > read an0 23.17
+
+
+write an0 12
+ > write an0 12.00
+read an0
+ > read an0 26.06
+read an0
+ > read an0 26.18
+read an0
+ > read an0 26.23
+
+
+write an0 13
+ > write an0 13.00
+read an0
+ > read an0 28.42
+read an0
+ > read an0 28.42
+read an0
+ > read an0 27.84
+
+
+write an0 14
+ > write an0 14.00
+read an0
+ > read an0 30.84
+read an0
+ > read an0 30.31
+read an0
+ > read an0 30.94
+write an0 15
+ > write an0 15.00
+read an0
+ > read an0 33.28
+read an0
+ > read an0 33.28
+read an0
+ > read an0 32.65
+
+
+write an0 16
+ > write an0 16.00
+read an0
+ > read an0 34.92
+read an0
+ > read an0 35.51
+read an0
+ > read an0 35.24
+
+
+write an0 17
+ > write an0 17.00
+read an0
+ > read an0 37.53
+read an0
+ > read an0 38.27
+read an0
+ > read an0 38.17
+
+
+write an0 18
+ > write an0 18.00
+read an0
+ > read an0 41.07
+read an0
+ > read an0 41.20
+read an0
+ > read an0 40.85
+
+
+write an0 19
+ > write an0 19.00
+read an0
+ > read an0 43.25
+read an0
+ > read an0 43.74
+read an0
+ > read an0 43.88
+
+
+write an0 20
+ > write an0 20.00
+read an0
+ > read an0 46.42
+read an0
+ > read an0 45.86
+read an0
+ > read an0 46.20
+
+
+
+
+

@@ -1,0 +1,4 @@
+Velocidad viento;Corriente [A];Tensión [V];Omega [rpm];Torque [Nm]
+5 m/s;0,3352;5,928;29,648;1,6517
+6 m/s;0,56744;10,5814;49,186;2,4379
+7 m/s;0,90661;17,367;77,3211;3,8257

@@ -1,0 +1,185 @@
+write an0 1
+ > write an0 1.00
+read an0
+ > read an0 5.23
+read an0
+ > read an0 5.74
+read an0
+ > read an0 4.64
+
+
+
+write an0 2
+ > write an0 2.00
+read an0
+ > read an0 7.47
+read an0
+ > read an0 7.03
+read an0
+ > read an0 7.96
+
+
+
+write an0 3
+ > write an0 3.00
+read an0
+ > read an0 12.67
+read an0
+ > read an0 11.60
+read an0read an0
+read an0
+ > read an0 11.60
+
+
+
+write an0 4
+ > write an0 4.00
+read an0
+ > read an0 18.10
+read an0
+ > read an0 18.36
+read an0
+ > read an0 18.05
+
+
+
+write an0 5
+ > write an0 5.00
+read an0
+ > read an0 23.71
+read an0
+ > read an0 24.27
+read an0
+ > read an0 24.22
+
+
+
+write an0 6
+ > write an0 6.00
+read an0
+ > read an0 30.13
+read an0
+ > read an0 30.09
+read an0
+ > read an0 30.38
+
+
+
+write an0 7
+ > write an0 7.00
+read an0
+ > read an0 36.39
+read an0
+ > read an0 35.70
+read an0
+ > read an0 36.34
+
+
+
+write an0 8
+ > write an0 8.00
+read an0
+ > read an0 42.27
+read an0
+ > read an0 41.76
+read an0
+ > read an0 42.05
+
+
+
+write an0 9
+ > write an0 9.00
+read an0
+ > read an0 47.84
+read an0
+ > read an0 47.64
+read an0
+ > read an0 47.86
+
+
+
+write an0 10
+ > write an0 10.00
+read an0
+ > read an0 53.19
+read an0
+ > read an0 53.50
+read an0
+ > read an0 53.28
+
+
+
+write an0 11
+ > write an0 11.00
+read an0
+ > read an0 58.14
+read an0
+ > read an0 58.46
+read an0
+ > read an0 58.27
+
+
+
+write an0 12
+ > write an0 12.00
+read an0
+ > read an0 63.96
+read an0
+ > read an0 63.98
+read an0
+ > read an0 64.62
+
+
+
+write an0 13
+ > write an0 13.00
+read an0
+ > read an0 70.28
+read an0
+ > read an0 70.28
+read an0
+ > read an0 70.31
+
+
+
+write an0 14
+ > write an0 14.00
+read an0
+ > read an0 76.12
+read an0
+ > read an0 76.29
+read an0
+ > read an0 76.29
+
+
+
+write an0 15
+ > write an0 15.00
+read an0
+ > read an0 81.98
+read an0
+ > read an0 82.69
+read an0
+ > read an0 82.54
+
+
+
+write an0 16
+ > write an0 16.00
+read an0
+ > read an0 88.64
+read an0
+ > read an0 88.45
+read an0
+ > read an0 88.23
+
+
+
+write an0 17
+ > write an0 17.00
+read an0
+ > read an0 94.99
+read an0
+ > read an0 94.90
+read an0
+ > read an0 95.26

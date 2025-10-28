@@ -1,0 +1,225 @@
+
+* es posible obtener la potencia de dos formas
+  - con Torque y Omega del motor (ya disponible)
+  - con V y I en la salida del gen
+  * la diferencia serían las pérdidas -> relevante ?
+
+
+Determinación de P con V y I
+
+cyt 1000b -> sensor de corriente contínua
+
+la idea básica inicial es obtener un voltaje proporcional a la corriente con el sensor y un voltaje proporcional al voltaje de salida
+
+* es posible detectar las variables de 2 formas
+  - capturar los voltajes con el osciloscopio
+  - un circuito dedicado a procesar los voltajes
+  * se podrían implementar ambos, en el orden en que están escritos
+
+
+para CO
+4,5 a 10 m/s -> curvas 0 a 11
+5; 6; 7; 8; 9 -> curvas 1,3,5,7,9
+
+
+
+
+Simulación
+T0001ALL.CSV
+1,3,5,7,9
+F1CO
+5 Ohm
+
+T0002ALL.CSV
+1,3,5,7,9
+F1CO
+5 Ohm
+(filtrado)
+
+T0003ALL.CSV
+1,3,5,7,9
+F1CO
+10 Ohm
+
+T0004ALL.CSV
+1,3,5,7,9
+F1CO
+10 Ohm
+(filtrado)
+
+T0005ALL.CSV
+1,3,5
+F1CO
+20 Ohm
+
+T0006ALL.CSV
+1,3,5
+F1CO
+20 Ohm
+(filtrado)
+
+T0007ALL.CSV
+1,3,5,7,9 (supera la potencia del generador, en 5 corta directamente)
+F2CO
+20 Ohm
+
+T0008ALL.CSV
+1,3,5,7,9 (supera la potencia del generador, en 5 corta directamente)
+F2CO
+20 Ohm
+(filtrado sobre los datos de lo anterior)
+
+T0009ALL.CSV
+1,3,5,7,9
+F1CO
+6,66 Ohm
+
+T0010ALL.CSV
+1,3,5,7,9
+F1CO
+6,66 Ohm
+(filtrado)
+
+T0011ALL.CSV
+1,3,5,7,9
+F1CO
+4 Ohm
+
+T0012ALL.CSV
+1,3,5,7,9
+F1CO
+4 Ohm
+(filtrado)
+
+T0013ALL.CSV
+1,3,5,7,9
+F1CO
+3,33 Ohm
+
+T0014ALL.CSV
+1,3,5,7,9
+F1CO
+3,33 Ohm
+(filtrado)
+
+T0015ALL.CSV
+1,3,5,7,9
+F1CO
+2,5 Ohm
+
+T0016ALL.CSV
+1,3,5,7,9
+F1CO
+2,5 Ohm
+(filtrado)
+
+T0017ALL.CSV
+1,3,5,7,9
+F1CO
+2 Ohm
+
+T0018ALL.CSV
+1,3,5,7,9
+F1CO
+2 Ohm
+(filtrado)
+
+
+T0019ALL.CSV
+8 m/s
+F3CO
+2 Ohm
+
+
+///////////// otra tanda buscando puntos óptimos
+
+0-11 índices
+1-12 m/s viento
+
+T0000ALL.CSV -> MÉH
+7,5,5,6,6,7,7,4
+6,7,8 m/s
+3seg
+20 Ohm
+
+T0001ALL.CSV
+7,4,4,5,5,6,6,7,7,4
+5,6,7,8 m/s
+3seg
+20 Ohm
+
+T0002ALL.CSV
+10,10,7,7,8,8
+8,9 m/s
+3seg
+10 Ohm
+
+T0003ALL.CSV
+6,4,4,5,5,6,6
+5,6,7 m/s
+3seg
+30 Ohm
+
+T0004ALL.CSV
+8,5,5,6,6,7,7
+6,7,8 m/s
+3seg
+15 Ohm
+
+
+0-11 índices
+4,5-10 m/s viento
+
+T0005ALL.CSV
+9,4,4,6,6,8,8
+6.5;7.5;8.5 m/s
+3seg
+15 Ohm
+
+T0006ALL.CSV
+11*,6,6,8,8
+7.5;8.5 m/s
+6seg
+10 Ohm
+
+T0007ALL.CSV
+9,2,2,4,4,6,6
+5.5;6.5;7.5 m/s
+3seg
+20 Ohm
+
+T0008ALL.CSV
+9,2,2,4,4
+5.5;6.5 m/s
+3seg
+30 Ohm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### debería mandarle resultados para un punto óptimo
+"Le envío los ####resultados#### para los valores de carga en que el punto de operación se acerca más al punto óptimo." "Para llegar al punto de equilibrio con las cargas NN y MM realicé un arranque transitorio conmutando la carga al alcanzar las 100 rpm. A diferencia de la semana anterior realicé el arranque con una carga reducida (R mayor) para que la aceleración fuera mas controlada"
+
+#### entonces PARA EL LAB:
+-> llegar a los puntos de equilibrio que estén cerca del punto óptimo
+   -> implementar el arranque a carga reducida con 20 Ohm cuando sea necesario
+   -> tmb puedo usar truquito de cambiar a otra curva por un momento para que se acelere y ahí volver
+-> MAS NOTAS EN EL CEL
+
+
