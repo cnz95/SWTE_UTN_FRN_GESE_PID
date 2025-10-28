@@ -1,0 +1,5 @@
+idProducto,codigoBarras,descripcion,precioCompra,precioVenta,existencia,stock
+4,4,NodeMCU ESP8266,100.00,150.00,200.00,1.00
+3,3,Nintendo Switch,8000.00,8500.00,20.00,2.00
+2,2,Audifonos HyperX,1200.00,1500.00,20.00,1.00
+1,1,Teclado HyperX,1800.00,2000.00,500.00,20.00
