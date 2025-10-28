@@ -1,0 +1,7 @@
+Placa rect. trif.
+- rectificador trif, con los 3 monof.
+  * con disipador
+- 5 caps en paralelo
+- cables y pistas para 10A
+  - cable 1.5 está bien, 2.5 ya tiene buen margen ???
+  - pista 7.62mm (considerando 10°C de aumento de temp, en cobre de 1oz/pie2, y sustrato fr4)
